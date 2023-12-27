@@ -4,7 +4,7 @@ This is a code snippet that demonstrates face mask detection using pre-trained m
 
 ## Prerequisites
 
-- Python 3.x
+- Python 3.11
 - OpenCV
 - TensorFlow
 - Keras
@@ -15,19 +15,15 @@ This is a code snippet that demonstrates face mask detection using pre-trained m
 
 1. Clone the repository or download the code files.
 
-2. Ensure that the required packages are installed. You can install the dependencies using the following command:
+2. Create corresponding venv. VEDA.AI tested on `python v3.11` 
+3. Ensure that the required packages are installed. You can install the dependencies using the following command:
 
    ```
    pip install --upgrade pip
-   pip install -r requirements (нужная версия ОС)
-   pip install opencv-python tensorflow keras numpy matplotlib
+   pip install -r requirements (нужная версия ОС)   
    ```
 
-3. Run the code using a Python interpreter.
-
-   ```
-   python your_code_file.py
-   ```
+3. Run jupyter notebook cells from `./src/veda_ai.ipynb`
 
 4. The code will first download the pre-trained models if they are not already present in the `models` directory.
 
